@@ -27,10 +27,10 @@ if(savedUsername.length === 0){
     document.getElementById('emailss').textContent = `${savedUsername[0].usernames}`
 }
 function logedin(){
-    window.location.href='../login.html';
+    window.location.href='login.html';
 }
 function logout(){
-window.location.href='../login.html';
+window.location.href='login.html';
 localStorage.removeItem('users');
 }
 
