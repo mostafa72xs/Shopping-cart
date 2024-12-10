@@ -1,0 +1,387 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+    box-sizing: border-box;
+    background: whitesmoke !important;
+    scroll-behavior: smooth !important;
+    transition: ease 0.5s !important;
+}
+
+
+
+nav{
+    background: white;
+}
+ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+header{
+    height: 500px;
+    
+    background-image:url('https://wallpapers.com/images/hd/best-gaming-background-aea1fp9pow4r1l4r.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+.main{
+    width: 100% !important;
+    height: auto;
+    margin-top: 100px;
+}
+#gridpro{
+    width: 100% !important;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 50px;
+    place-content: center;
+    column-gap: 50px;
+}
+.card{
+    background-color: white !important;
+    height:auto !important;
+    max-height: 400px !important;
+}
+.card img{
+    height: 50% !important;
+}
+#carticon{
+    position: fixed;
+    z-index: 50;
+    height: 75px;
+    width: 75px;
+    right: 70px;
+    border-radius: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    top: 150px;
+    background-color: #ce3333;
+}
+
+.Bcart{
+    background-color: rgb( 0 , 0 , 0 ,0.5);
+    position: fixed;
+    width: 100%;
+    height:100%;
+    z-index: 100;
+    margin-left: -120px !important;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.cart button{
+    border: none;
+    background-color: transparent;
+}
+.cart{
+    width: 50%;
+    z-index: 6;
+    height: 70%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+.cartA{
+    width: 70%;
+    height: 100%;
+    z-index: 7;
+}
+.btn:hover{
+    background-color: #ce3333 !important;
+    color:white !important
+}
+.cartB{
+    width: 30%;
+    height: 100%;
+    z-index: 7;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: whitesmoke;
+    background-color: #ce3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+#checkout{
+
+    background-color: #fff;
+
+}
+#checkout:hover{
+    background-color: #383636 !important;
+}
+
+.itemTitle{
+    display: block;
+}
+li{
+    display: flex;
+    height: 50px;
+    margin: 20px 0;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    margin-left: -40px;
+}
+li img{
+    height:60px !important;
+    width: 70px;
+    object-fit: cover;
+}
+.closebtn{
+    position: absolute;
+    margin-left: 20px;
+    top: 80%;
+    border: none;
+    background-color: transparent;
+    color: #383636;
+    z-index: 8;
+}
+.cartAa{
+    width: 100%;
+    height: 12%;
+    border-bottom: 2px solid #383636;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cartlist{
+    height: 79%;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+}
+
+
+.quantitybtn{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.quantitybtn button{
+    background-color: transparent;
+    color: #383636;
+    border: none !important;
+}
+
+.tax{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    height: 40%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tax div{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first{
+    margin-top: 100px;
+    width: 100%;
+    height: 540px;
+    background-image: url('https://cdn.wallpaper.tn/large/Cyberpunk-2077-Wallpaper-4K-15610.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+
+}
+.first .group{
+    width: 100%;
+    height:50%;
+    padding: 100px 100px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.first .two{
+    position: absolute;
+    z-index: 5;
+    margin-left: 60%;
+}
+.fis{
+    display:none !important;
+}
+.closebtn2{
+    display: none;
+}
+.sec{
+    margin-top: 100px;
+    height: 500px;
+    color: #383636;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    backdrop-filter: blur(0.2);
+}
+
+
+.secform{
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.secform input{
+    background-color: white !important;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 120px !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: none;
+}
+.secform input[type= text]{
+    text-align: center;
+}
+
+
+.secform button{
+    background-color: #383636 !important;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    height: 50px;
+    margin-top: -0px;
+    color: white;
+    transition: ease 0.2s;
+}
+
+
+
+.secform button:hover{
+    background-color: #ce3333 !important;
+    color: white;
+
+}
+
+footer{
+    background-color: #383636 !important;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    #gridpro{
+        grid-template-columns: auto;
+        grid-template-rows:none;
+    }
+    header{
+        background-position: center;
+    }
+    .Bcart{
+        width:100%;
+        margin-left: -14px !important;
+    }
+    .cart{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 95%;
+        border-radius: 0px;
+    }
+    .closebtn{
+        display: none;
+    }
+    .cartA{
+        width: 100%;
+        height: 70%;
+    }
+    li{
+        gap: 0px;
+    }
+    .cartB{
+        width: 100%;
+        height: 35%;
+        gap:10px;
+        border-radius: 0px;
+    }
+    .cartAa h1{
+        display: none;
+    }
+    .sec input{
+        width: 90%;
+    }
+    .sec button{
+        width: 90%;
+    }
+    .group{
+        width: 100% !important;
+        height: 100% !important;
+        align-items: center;
+        padding: 0px 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .first{
+        position: relative;
+        display:none;
+    }
+    .fis{
+        display: block;
+    }
+    footer{
+        height: auto !important;
+    }
+    footer div{
+        flex-direction: column;
+    }
+}
